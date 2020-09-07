@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<!--
+Template Name: Midone - HTML Admin Dashboard Template
+Author: Left4code
+Website: http://www.left4code.com/
+Contact: muhammadrizki@left4code.com
+Purchase: https://themeforest.net/user/left4code/portfolio
+Renew Support: https://themeforest.net/user/left4code/portfolio
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+<!-- BEGIN: Head -->
+<head>
+    <meta charset="utf-8">
+    <link href="dist/images/logo.svg" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="LEFT4CODE">
+    <!-- BEGIN: CSS Assets-->
+    <link rel="stylesheet" href="dist/css/app.css" />
+    <link rel="stylesheet" href="dist/css/style.bundle.css" />
+    <link rel="stylesheet" href="dist/css/style.bundle.min.css" />
+    <!-- END: CSS Assets-->
+</head>
+<!-- END: Head -->
+<body class="app">
+<!-- BEGIN: Mobile Menu -->
+<div class="mobile-menu md:hidden">
+    <div class="mobile-menu-bar">
+        <a href="" class="flex mr-auto">
+            <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+        </a>
+        <a href="javascript:;" id="mobile-menu-toggler"> <i data-feather="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+    </div>
+    <ul class="border-t border-theme-24 py-5 hidden">
+        <li>
+            <a href="index.html" class="menu menu--active">
+                <div class="menu__icon"> <i data-feather="home"></i> </div>
+                <div class="menu__title"> Dashboard </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="box"></i> </div>
+                <div class="menu__title"> Menu Layout <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="index.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Side Menu </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="simple-menu-dashboard.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Simple Menu </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="top-menu-dashboard.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Top Menu </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="side-menu-inbox.html" class="menu">
+                <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                <div class="menu__title"> Inbox </div>
+            </a>
+        </li>
+        <li>
+            <a href="side-menu-file-manager.html" class="menu">
+                <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                <div class="menu__title"> File Manager </div>
+            </a>
+        </li>
+        <li>
+            <a href="side-menu-point-of-sale.html" class="menu">
+                <div class="menu__icon"> <i data-feather="credit-card"></i> </div>
+                <div class="menu__title"> Point of Sale </div>
+            </a>
+        </li>
+        <li>
+            <a href="side-menu-chat.html" class="menu">
+                <div class="menu__icon"> <i data-feather="message-square"></i> </div>
+                <div class="menu__title"> Chat </div>
+            </a>
+        </li>
+        <li>
+            <a href="side-menu-post.html" class="menu">
+                <div class="menu__icon"> <i data-feather="file-text"></i> </div>
+                <div class="menu__title"> Post </div>
+            </a>
+        </li>
+        <li class="menu__devider my-6"></li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="edit"></i> </div>
+                <div class="menu__title"> Crud <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="side-menu-crud-data-list.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Data List </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-crud-form.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Form </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="users"></i> </div>
+                <div class="menu__title"> Users <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="side-menu-users-layout-1.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Layout 1 </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-users-layout-2.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Layout 2 </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-users-layout-3.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Layout 3 </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="trello"></i> </div>
+                <div class="menu__title"> Profile <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="side-menu-profile-overview-1.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Overview 1 </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-profile-overview-2.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Overview 2 </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-profile-overview-3.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Overview 3 </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="layout"></i> </div>
+                <div class="menu__title"> Pages <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Wizards <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-wizard-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-wizard-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 2</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-wizard-layout-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 3</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Blog <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-blog-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-blog-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 2</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-blog-layout-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 3</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Pricing <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-pricing-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-pricing-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 2</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Invoice <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-invoice-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-invoice-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 2</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> FAQ <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-faq-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-faq-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 2</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-faq-layout-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Layout 3</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="login-login.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Login </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="login-register.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Register </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="main-error-page.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Error Page </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-update-profile.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Update profile </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-change-password.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Change Password </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu__devider my-6"></li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                <div class="menu__title"> Components <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Grid <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-regular-table.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Regular Table</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-datatable.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="menu__title">Datatable</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="side-menu-accordion.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Accordion </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-button.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Button </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-modal.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Modal </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-alert.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Alert </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-progress-bar.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Progress Bar </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-tooltip.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Tooltip </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-dropdown.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Dropdown </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-toast.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Toast </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-typography.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Typography </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-icon.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Icon </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-loading-icon.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Loading Icon </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="sidebar"></i> </div>
+                <div class="menu__title"> Forms <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="side-menu-regular-form.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Regular Form </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-datepicker.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Datepicker </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-select2.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Select2 </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-file-upload.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> File Upload </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-wysiwyg-editor.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Wysiwyg Editor </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-validation.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Validation </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;" class="menu">
+                <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                <div class="menu__title"> Widgets <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+            </a>
+            <ul class="">
+                <li>
+                    <a href="side-menu-chart.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Chart </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-slider.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Slider </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-image-zoom.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="menu__title"> Image Zoom </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- END: Mobile Menu -->
+<div class="flex">
+    <!-- BEGIN: Side Menu -->
+    <nav class="side-nav">
+        <a href="" class="intro-x flex items-center pl-5 pt-4">
+            <span class="hidden xl:block text-white text-lg ml-3"style="margin-left: 23%;"> <h1 style="font-size: 100px;font-family: system-ui;">Q</h1></span>
+        </a>
+        <ul>
+            <li>
+                <a href="index.html" class="side-menu">
+                    <div class="side-menu__icon"> <i data-feather="home"></i> </div>
+                    <div class="side-menu__title"> Incoming </div>
+                </a>
+            </li>
+            <li>
+                <a href="Statistics.html" class="side-menu">
+                    <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
+                    <div class="side-menu__title"> Statistics </div>
+                </a>
+            </li>
+            <li>
+                <a href="place.html" class="side-menu side-menu--active " >
+                    <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
+                    <div class="side-menu__title"> Floor Plan </div>
+                </a>
+            </li>
+            <li>
+                <a href="Settings.html" class="side-menu">
+                    <div class="side-menu__icon"> <i data-feather="credit-card"></i> </div>
+                    <div class="side-menu__title"> Settings </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- END: Side Menu -->
+    <!-- BEGIN: Content -->
+    <div class="content">
+        <!-- BEGIN: Top Bar -->
+        <div class="top-bar">
+            <!-- BEGIN: Breadcrumb -->
+            <div class="-intro-x breadcrumb mr-auto hidden sm:flex"> <a href="" class="">Application</a> <i data-feather="chevron-right" class="breadcrumb__icon"></i> <a href="" class="breadcrumb--active">Dashboard</a> </div>
+            <!-- END: Breadcrumb -->
+            <!-- BEGIN: Search -->
+            <div class="intro-x relative mr-3 sm:mr-6">
+                <div class="search hidden sm:block">
+                    <input type="text" class="search__input input placeholder-theme-13" placeholder="Search...">
+                    <i data-feather="search" class="search__icon"></i>
+                </div>
+                <a class="notification sm:hidden" href=""> <i data-feather="search" class="notification__icon"></i> </a>
+                <div class="search-result">
+                    <div class="search-result__content">
+                        <div class="search-result__content__title">Pages</div>
+                        <div class="mb-5">
+                            <a href="" class="flex items-center">
+                                <div class="w-8 h-8 bg-theme-18 text-theme-9 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="inbox"></i> </div>
+                                <div class="ml-3">Mail Settings</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 bg-theme-17 text-theme-11 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="users"></i> </div>
+                                <div class="ml-3">Users & Permissions</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 bg-theme-14 text-theme-10 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="credit-card"></i> </div>
+                                <div class="ml-3">Transactions Report</div>
+                            </a>
+                        </div>
+                        <div class="search-result__content__title">Users</div>
+                        <div class="mb-5">
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-13.jpg">
+                                </div>
+                                <div class="ml-3">Angelina Jolie</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">angelinajolie@left4code.com</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-2.jpg">
+                                </div>
+                                <div class="ml-3">Johnny Depp</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">johnnydepp@left4code.com</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-14.jpg">
+                                </div>
+                                <div class="ml-3">Russell Crowe</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">russellcrowe@left4code.com</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-6.jpg">
+                                </div>
+                                <div class="ml-3">Al Pacino</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">alpacino@left4code.com</div>
+                            </a>
+                        </div>
+                        <div class="search-result__content__title">Products</div>
+                        <a href="" class="flex items-center mt-2">
+                            <div class="w-8 h-8 image-fit">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-9.jpg">
+                            </div>
+                            <div class="ml-3">Samsung Galaxy S20 Ultra</div>
+                            <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Smartphone &amp; Tablet</div>
+                        </a>
+                        <a href="" class="flex items-center mt-2">
+                            <div class="w-8 h-8 image-fit">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-12.jpg">
+                            </div>
+                            <div class="ml-3">Nike Tanjun</div>
+                            <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Sport &amp; Outdoor</div>
+                        </a>
+                        <a href="" class="flex items-center mt-2">
+                            <div class="w-8 h-8 image-fit">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-10.jpg">
+                            </div>
+                            <div class="ml-3">Sony Master Series A9G</div>
+                            <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Electronic</div>
+                        </a>
+                        <a href="" class="flex items-center mt-2">
+                            <div class="w-8 h-8 image-fit">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-7.jpg">
+                            </div>
+                            <div class="ml-3">Samsung Galaxy S20 Ultra</div>
+                            <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Smartphone &amp; Tablet</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Search -->
+            <!-- BEGIN: Notifications -->
+            <div class="intro-x dropdown relative mr-auto sm:mr-6">
+                <div class="dropdown-toggle notification notification--bullet cursor-pointer"> <i data-feather="bell" class="notification__icon"></i> </div>
+                <div class="notification-content dropdown-box mt-8 absolute top-0 left-0 sm:left-auto sm:right-0 z-20 -ml-10 sm:ml-0">
+                    <div class="notification-content__box dropdown-box__content box">
+                        <div class="notification-content__title">Notifications</div>
+                        <div class="cursor-pointer relative flex items-center ">
+                            <div class="w-12 h-12 flex-none image-fit mr-1">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-13.jpg">
+                                <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                            </div>
+                            <div class="ml-2 overflow-hidden">
+                                <div class="flex items-center">
+                                    <a href="javascript:;" class="font-medium truncate mr-5">Angelina Jolie</a>
+                                    <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                </div>
+                                <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                            </div>
+                        </div>
+                        <div class="cursor-pointer relative flex items-center mt-5">
+                            <div class="w-12 h-12 flex-none image-fit mr-1">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-2.jpg">
+                                <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                            </div>
+                            <div class="ml-2 overflow-hidden">
+                                <div class="flex items-center">
+                                    <a href="javascript:;" class="font-medium truncate mr-5">Johnny Depp</a>
+                                    <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                </div>
+                                <div class="w-full truncate text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </div>
+                            </div>
+                        </div>
+                        <div class="cursor-pointer relative flex items-center mt-5">
+                            <div class="w-12 h-12 flex-none image-fit mr-1">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-14.jpg">
+                                <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                            </div>
+                            <div class="ml-2 overflow-hidden">
+                                <div class="flex items-center">
+                                    <a href="javascript:;" class="font-medium truncate mr-5">Russell Crowe</a>
+                                    <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                </div>
+                                <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                            </div>
+                        </div>
+                        <div class="cursor-pointer relative flex items-center mt-5">
+                            <div class="w-12 h-12 flex-none image-fit mr-1">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-6.jpg">
+                                <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                            </div>
+                            <div class="ml-2 overflow-hidden">
+                                <div class="flex items-center">
+                                    <a href="javascript:;" class="font-medium truncate mr-5">Al Pacino</a>
+                                    <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                </div>
+                                <div class="w-full truncate text-gray-600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomi</div>
+                            </div>
+                        </div>
+                        <div class="cursor-pointer relative flex items-center mt-5">
+                            <div class="w-12 h-12 flex-none image-fit mr-1">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-5.jpg">
+                                <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                            </div>
+                            <div class="ml-2 overflow-hidden">
+                                <div class="flex items-center">
+                                    <a href="javascript:;" class="font-medium truncate mr-5">Edward Norton</a>
+                                    <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                </div>
+                                <div class="w-full truncate text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Notifications -->
+            <!-- BEGIN: Account Menu -->
+            <div class="intro-x dropdown w-8 h-8 relative">
+                <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in">
+                    <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-12.jpg">
+                </div>
+                <div class="dropdown-box mt-10 absolute w-56 top-0 right-0 z-20">
+                    <div class="dropdown-box__content box bg-theme-38 text-white">
+                        <div class="p-4 border-b border-theme-40">
+                            <div class="font-medium">Angelina Jolie</div>
+                            <div class="text-xs text-theme-41">Software Engineer</div>
+                        </div>
+                        <div class="p-2">
+                            <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="user" class="w-4 h-4 mr-2"></i> Profile </a>
+                            <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
+                            <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="lock" class="w-4 h-4 mr-2"></i> Reset Password </a>
+                            <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="help-circle" class="w-4 h-4 mr-2"></i> Help </a>
+                        </div>
+                        <div class="p-2 border-t border-theme-40">
+                            <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Account Menu -->
+        </div>
+        <!-- END: Top Bar -->
+        <div class=" container ">
+            <!--begin::Page Layout-->
+            <div class="d-flex flex-row">
+                <!--begin::Aside-->
+                <div class="flex-column offcanvas-mobile w-300px w-xl-325px" id="kt_profile_aside">
+                    <!--begin::List Widget 17-->
+                    <div class="card card-custom gutter-b">
+                        <!--begin::Header-->
+                        <div class="card-header border-0 pt-5">
+                            <h3 class="card-title align-items-start flex-column">
+                                <span class="card-label font-weight-bolder text-dark">Books to Pickup</span>
+                                <span class="text-muted mt-3 font-weight-bold font-size-sm">24 Books to Return</span>
+                            </h3>
+                            <div class="card-toolbar"></div>
+                        </div>
+                        <!--end::Header-->
+
+                        <!--begin::Body-->
+                        <div class="card-body pt-4">
+                            <!--begin::Container-->
+                            <div>
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-8">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol mr-5 pt-1">
+                                        <div class="symbol-label min-w-65px min-h-100px" style="background-image: url('assets/media/books/4.png')"></div>
+                                    </div>
+                                    <!--end::Symbol-->
+
+                                    <!--begin::Info-->
+                                    <div class="d-flex flex-column">
+                                        <!--begin::Title-->
+                                        <a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Darius The Great</a>
+                                        <!--end::Title-->
+
+                                        <!--begin::Text-->
+                                        <span class="text-muted font-weight-bold font-size-sm pb-4">
+                        Amazing Short Story About<br>
+                        Darius greatness
+                    </span>
+                                        <!--end::Text-->
+
+                                        <!--begin::Action-->
+                                        <div><button type="button" class="btn btn-light font-weight-bolder font-size-sm py-2">Book Now</button></div>
+                                        <!--end::Action-->
+                                    </div>
+                                    <!--end::Info-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-8">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol mr-5 pt-1">
+                                        <div class="symbol-label min-w-65px min-h-100px" style="background-image: url('assets/media/books/12.png')"></div>
+                                    </div>
+                                    <!--end::Symbol-->
+
+                                    <!--begin::Info-->
+                                    <div class="d-flex flex-column">
+                                        <!--begin::Title-->
+                                        <a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Wild Blues</a>
+                                        <!--end::Title-->
+
+                                        <!--begin::Text-->
+                                        <span class="text-muted font-weight-bold font-size-sm pb-4">
+                        Amazing Short Story About<br>
+                        Darius greatness
+                    </span>
+                                        <!--end::Text-->
+
+                                        <!--begin::Action-->
+                                        <div><button type="button" class="btn btn-light font-weight-bolder font-size-sm py-2">Book Now</button></div>
+                                        <!--end::Action-->
+                                    </div>
+                                    <!--end::Info-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol mr-5 pt-1">
+                                        <div class="symbol-label min-w-65px min-h-100px" style="background-image: url('assets/media/books/13.png')"></div>
+                                    </div>
+                                    <!--end::Symbol-->
+
+                                    <!--begin::Info-->
+                                    <div class="d-flex flex-column">
+                                        <!--begin::Title-->
+                                        <a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Simple Thinking</a>
+                                        <!--end::Title-->
+
+                                        <!--begin::Text-->
+                                        <span class="text-muted font-weight-bold font-size-sm pb-4">
+                        Amazing Short Story About<br>
+                        Darius greatness
+                    </span>
+                                        <!--end::Text-->
+
+                                        <!--begin::Action-->
+                                        <div><button type="button" class="btn btn-light font-weight-bolder font-size-sm py-2">Book Now</button></div>
+                                        <!--end::Action-->
+                                    </div>
+                                    <!--end::Info-->
+                                </div>
+                                <!--end::Item-->
+                            </div>
+                            <!--end::Container-->
+                        </div>
+                        <!--end::Body-->
+                    </div>
+                    <!--end::List Widget 17-->
+
+                    <!--begin::List Widget 21-->
+                    <div class="card card-custom gutter-b">
+                        <!--begin::Header-->
+                        <div class="card-header border-0 pt-5">
+                            <h3 class="card-title align-items-start flex-column mb-5">
+                                <span class="card-label font-weight-bolder text-dark mb-1">About Us</span>
+
+                            </h3>
+                            <div class="card-toolbar">
+                                Voluptate excepteur ipsum nisi excepteur pariatur cupidatat ullamco id
+                                elit sit sint magna. Veniam dolore duis ex ea laboris amet minim commodo
+                                veniam cupidatat in consequat incididunt. Id reprehenderit irure pariatur culpa
+                                quis consequat nostrud in. Laboris in exercitation reprehenderit consectetur. Aliqua
+                                eu laborum minim ullamco eu aliqua eu.
+                            </div>
+                        </div>
+                        <!--end::Header-->
+
+                        <!--begin::Body-->
+                        <div class="card-body pt-2">
+
+                            <!--end::Item-->
+                        </div>
+
+                        <!--end::Body-->
+                    </div>
+                    <div class="card card-custom gutter-b">
+                        <!--begin::Header-->
+                        <div class="card-header border-0 pt-5">
+                            <h3 class="card-title align-items-start flex-column mb-5">
+                                <span class="card-label font-weight-bolder text-dark mb-1">Available tables</span>
+
+                            </h3>
+                            <div class="card-toolbar">
+
+                            </div>
+                        </div>
+                        <!--end::Header-->
+
+                        <!--begin::Body-->
+                        <div class="card-body pt-2">
+
+                            <!--end::Item-->
+                        </div>
+
+                        <!--end::Body-->
+                    </div>
+                    <!--end::List Widget 21-->
+                    <div class="card card-custom gutter-b" >
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Time Picker
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#timepicker-datepicker" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Time Picker
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#timepicker-datepicker" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Time Picker
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#timepicker-datepicker" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <!--end::Item-->
+                    </div>
+                </div>
+                <!--end::Aside-->
+
+                <!--begin::Layout-->
+                <div class="flex-row-fluid ml-lg-8">
+                    <!--begin::Card-->
+                    <div class="card-body">
+
+                        <!--begin::Engage Widget 15-->
+                        <div class="card card-custom gutter-b">
+                            <div class="card-body rounded p-0 d-flex bg-light">
+                                <div class="d-flex flex-column flex-lg-row-auto w-auto w-lg-350px w-xl-450px w-xxl-650px py-10 py-md-14 px-10 px-md-20 pr-lg-0">
+                                    <h1 class="font-weight-bolder text-dark mb-0">Search Goods</h1>
+                                    <div class="font-size-h4 mb-8">Get Amazing Gadgets</div>
+                                    <!--begin::Form-->
+                                    <form class="d-flex flex-center py-2 px-6 bg-white rounded">
+                <span class="svg-icon svg-icon-lg svg-icon-primary"><!--begin::Svg Icon | path:assets/media/svg/icons/General/Search.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect x="0" y="0" width="24" height="24"></rect>
+        <path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+        <path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg><!--end::Svg Icon--></span>                <input type="text" class="form-control border-0 font-weight-bold pl-2" placeholder="Search Goods">
+                                    </form>
+                                    <!--end::Form-->
+                                </div>
+                                <div class="d-none d-md-flex flex-row-fluid bgi-no-repeat bgi-position-y-center bgi-position-x-left bgi-size-cover" style="background-image: url(assets/media/svg/illustrations/copy.svg);">
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Engage Widget 15-->
+                        <!--begin::Section-->
+                        <div class="row">
+                            <div class="col-md-8 col-lg-12 col-xxl-8">
+
+                                <!--begin::Engage Widget 12-->
+                                <div class="card card-custom card-stretch card-stretch-half gutter-b overflow-hidden">
+                                    <div class="card-body p-0 d-flex rounded bg-light-success">
+                                        <div class="py-18 px-12">
+                                            <h3 class="font-size-h1"><a href="#" class="text-dark font-weight-bolder">Nike Sneakers</a></h3>
+                                            <div class="font-size-h4 text-success">Get Amazing Nike Sneakers</div>
+                                        </div>
+                                        <div class="d-none d-md-flex flex-row-fluid bgi-no-repeat bgi-position-y-center bgi-position-x-left bgi-size-cover" style="transform: scale(1.5) rotate(-26deg); background-image: url('assets/media/products/13.png')"></div>
+                                    </div>
+                                </div>
+                                <!--end::Engage Widget 12-->
+                                <!--begin::Engage Widget 12-->
+                                <div class="card card-custom card-stretch card-stretch-half gutter-b overflow-hidden">
+                                    <div class="card-body p-0 d-flex rounded bg-light-danger">
+                                        <div class="py-18 px-12">
+                                            <h3 class="font-size-h1"><a href="#" class="text-dark font-weight-bolder">Nike Sneakers</a></h3>
+                                            <div class="font-size-h4 text-danger">Get Amazing Nike Sneakers</div>
+                                        </div>
+                                        <div class="d-none d-md-flex flex-row-fluid bgi-no-repeat bgi-position-y-center bgi-position-x-left bgi-size-cover" style="transform: scale(1.5) rotate(-26deg); background-image: url('assets/media/products/12.png')"></div>
+                                    </div>
+                                </div>
+                                <!--end::Engage Widget 12-->					</div>
+
+                            <div class="col-md-4 col-lg-12 col-xxl-4" style="height: 450px;">
+                                <!--begin::Featured Product-->
+                                <div class="card card-custom card-stretch gutter-b">
+                                    <div class="card-body d-flex flex-column rounded bg-light-primary justify-content-between">
+                                        <div class="rounded text-center mb-7 pt-7">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg" class="mw-100 w-200px" style="transform: scale(1.4);">
+                                        </div>
+                                        <div class="text-center">
+                                            <h3 class="font-size-h1"><a href="#" class="text-dark font-weight-bolder">Kanken</a></h3>
+                                            <div class="font-size-h4 text-primary">Amazing Backpack</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end::Featured Product-->
+                            </div>
+                        </div>
+                        <!--end::Section-->
+
+                        <!--begin::Section-->
+                        <div class="row">
+                            <!--begin::Product-->
+                            <div class="col-md-4 col-lg-12 col-xxl-4" style="height: 450px;">
+                                <div class="card card-custom gutter-b card-stretch">
+                                    <div class="card-body d-flex flex-column rounded bg-light justify-content-between">
+                                        <div class="text-center rounded mb-7">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg" class="mw-100 w-200px">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-size-h5"><a href="#" class="text-dark-75 font-weight-bolder">Bose Headphones 700</a></h4>
+                                            <div class="font-size-h6 text-muted font-weight-bolder">$370.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Product-->
+
+                            <!--begin::Product-->
+                            <div class="col-md-4 col-lg-12 col-xxl-4" style="height: 450px;">
+                                <div class="card card-custom gutter-b card-stretch">
+                                    <div class="card-body d-flex flex-column rounded bg-light justify-content-between">
+                                        <div class="text-center rounded mb-7">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg" class="mw-100 w-200px">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-size-h5"><a href="#" class="text-dark-75 font-weight-bolder">Amazon Bip Home</a></h4>
+                                            <div class="font-size-h6 text-muted font-weight-bolder">$370.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Product-->
+
+                            <!--begin::Product-->
+                            <div class="col-md-4 col-lg-12 col-xxl-4" style="height: 450px;">
+                                <div class="card card-custom gutter-b card-stretch">
+                                    <div class="card-body d-flex flex-column rounded bg-light justify-content-between">
+                                        <div class="text-center rounded mb-7">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg" class="mw-100 w-200px">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-size-h5"><a href="#" class="text-dark-75 font-weight-bolder">Black &amp; White Vases</a></h4>
+                                            <div class="font-size-h6 text-muted font-weight-bolder">$370.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Product-->
+
+                            <!--begin::Product-->
+                            <div class="col-md-4 col-lg-12 col-xxl-4" style="height: 450px;">
+                                <div class="card card-custom gutter-b card-stretch">
+                                    <div class="card-body d-flex flex-column rounded bg-light justify-content-between">
+                                        <div class="text-center rounded mb-7">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg" class="mw-100 w-200px">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-size-h5"><a href="#" class="text-dark-75 font-weight-bolder">Spine Friendly Chair</a></h4>
+                                            <div class="font-size-h6 text-muted font-weight-bolder">$370.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Product-->
+
+                            <!--begin::Product-->
+                            <div class="col-md-4 col-lg-12 col-xxl-4" style="height: 450px;">
+                                <div class="card card-custom gutter-b card-stretch">
+                                    <div class="card-body d-flex flex-column rounded bg-light justify-content-between">
+                                        <div class="text-center rounded mb-7">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg" class="mw-100 w-200px">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-size-h5"><a href="#" class="text-dark-75 font-weight-bolder">Yellow Kettle</a></h4>
+                                            <div class="font-size-h6 text-muted font-weight-bolder">$370.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Product-->
+
+                            <!--begin::Product-->
+                            <div class="col-md-4 col-lg-12 col-xxl-4" style="height: 450px;">
+                                <div class="card card-custom gutter-b card-stretch">
+                                    <div class="card-body d-flex flex-column rounded bg-light justify-content-between">
+                                        <div class="text-center rounded mb-7">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg" class="mw-100 w-200px">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-size-h5"><a href="#" class="text-dark-75 font-weight-bolder">Amazing Mats</a></h4>
+                                            <div class="font-size-h6 text-muted font-weight-bolder">$370.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Product-->
+                        </div>
+                        <!--end::Section-->
+                    </div>
+                    <!--end::Card-->
+                </div>
+                <!--end::Layout-->
+            </div>
+            <!--end::Page Layout-->		</div>
+    </div>
+    <!-- END: Content -->
+</div>
+<!-- BEGIN: JS Assets-->
+<script src="dist/js/app.js"></script>
+<script src="dist/js/my-orders.js"></script>
+<script src="dist/js/my-orders.min.js"></script>
+<script src="dist/js/widgets.js"></script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<!--        <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script>-->
+<!--       -->
+
+<!-- END: JS Assets-->
+</body>
+</html>
